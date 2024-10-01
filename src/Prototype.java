@@ -1,2 +1,3 @@
-public class Prototype {
+public interface Prototype<T> {
+    T clone();
 }
