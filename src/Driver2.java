@@ -52,7 +52,7 @@ public class Driver2 {
 
     @Override
     public String toString() {
-        return "Driver{" +
+        return "Driver2{" +
                 "name='" + name + '\'' +
                 ", carModel='" + carModel + '\'' +
                 ", licenseNumber='" + licenseNumber + '\'' +
