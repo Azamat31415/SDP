@@ -45,8 +45,8 @@ public class Driver2 {
             return this;
         }
 
-        public Driver build() {
-            return new Driver(this);
+        public Driver2 build() {
+            return new Driver2(this);
         }
     }
 
