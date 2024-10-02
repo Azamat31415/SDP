@@ -28,10 +28,10 @@ public class Client {
 
         Factory factory = new StandardTaxiFactory();
         Taxi taxi = factory.createTaxi("Daniele", "XYZ12345");
-        taxi.takePassenger("John Doe");
+        taxi.takePassenger("Marshall Mathers");
 
         factory = new PremiumTaxiFactory();
         taxi = factory.createTaxi("Daniele", "XYZ12345");
-        taxi.takePassenger("Jane Doe");
+        taxi.takePassenger("Dua Lipa");
     }
 }
