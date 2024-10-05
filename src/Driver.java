@@ -1,9 +1,15 @@
+import java.sql.SQLOutput;
+
 public class Driver implements Prototype<Driver> {
     private String name;
     private String carModel;
     private String carMake;
     private String age;
     private String experience;
+
+    public Driver(String name) {
+        this.name = name;
+    }
 
     public Driver(String name, String carModel) {
         this.name = name;
