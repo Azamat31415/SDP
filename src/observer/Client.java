@@ -9,6 +9,6 @@ public class Client implements Observer {
 
     @Override
     public void update(String status) {
-        System.out.println("Client " + name + " received update: " + status);
+        System.out.println(name + " has been notified: " + status);
     }
 }

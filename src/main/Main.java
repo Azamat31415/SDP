@@ -21,6 +21,9 @@ public class Main {
         order.setStatus("Taxi is arriving.");
         order.setStatus("Taxi is at your location.");
 
+        order.removeObserver(client1);
+        order.setStatus("Taxi ride completed.");
+
         System.out.println("\n");
 
         // Task 2: State Pattern
