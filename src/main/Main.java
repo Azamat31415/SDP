@@ -13,10 +13,8 @@ public class Main {
         System.out.println("Observer Pattern Example:");
         Order order = new Order();
         Client client1 = new Client("Slim");
-        Client client2 = new Client("Marshall");
 
         order.addObserver(client1);
-        order.addObserver(client2);
 
         order.setStatus("Taxi is arriving.");
         order.setStatus("Taxi is at your location.");
